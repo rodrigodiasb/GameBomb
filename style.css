@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game-container {
+    text-align: center;
+    width: 400px;
+}
+
+#game {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #d1e7dd;
+    border: 2px solid #000;
+    margin: 0 auto;
+}
+
+#bombeiro {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    top: 185px;
+    left: 185px;
+}
+
+.victim, .fire {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.victim {
+    background-color: #ffc107;
+}
+
+.fire {
+    background-color: #dc3545;
+}
+
+#status {
+    margin-top: 10px;
+}
